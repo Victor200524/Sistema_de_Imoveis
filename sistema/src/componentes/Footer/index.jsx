@@ -32,7 +32,7 @@ const Footer = () => {
                 </Item>
 
                 <Item>
-                    <h3>Outros Serviços:</h3>
+                    <h3>Links:</h3>
                     <ul>
                         <li><span>Comprar</span></li>
 
@@ -43,7 +43,7 @@ const Footer = () => {
                 </Item>
 
                 <Item>
-                    <h3>Outros Serviços:</h3>
+                    <h3>Informações de Contato:</h3>
                     <ul>
                         <li><span>Comprar</span></li>
 
