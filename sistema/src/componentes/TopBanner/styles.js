@@ -13,7 +13,7 @@ export const Container = styled.div`
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: rgba(0, 0, 0, 0.3); 
+        background-color: rgba(0, 0, 0, 0.5); 
         z-index: 0;
     }
 `
@@ -24,7 +24,13 @@ export const Text = styled.div`
     z-index: 1;
     h2{
         color: var(--white);
-        font-size: ;
+        font-size: 3.875rem;
+        margin-bottom: 25px;
     }
+        p{
+            color: var(--white);
+            margin-bottom: 25px;
+
+        }
 `
 
