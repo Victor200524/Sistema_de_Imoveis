@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 
 export const Container = styled.div`
-    width: 350px;
+    width: 24%;
     margin-bottom: 12px 150px;
     background-color: var(--white);
     border-radius: 10px;
@@ -17,7 +17,7 @@ export const Container = styled.div`
 `
 
 export const Img = styled.div`
-    width: 350px;
+    width: 100%;
     img{
         border-radius: 10px;
         width: 100%;

@@ -9,7 +9,7 @@ export default createGlobalStyle`
     }
 
     :root{ //cores que utiliza no projeto
-        --primary: #F7F9FC;
+        --primary: #F1F2F3;
         --secondary: #15181C;
         --gray: #D9D9D9;
         --blue: #4766FF;
@@ -21,7 +21,7 @@ export default createGlobalStyle`
     }
     
     body{
-        background-color: var(--primary)
+        background-color: var(--primary);
         color: var(--secondary);
         font-family: "Dosis", serif;
         font-size: 1.2rem;

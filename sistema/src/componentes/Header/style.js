@@ -8,6 +8,7 @@ export const Container = styled.div`
     align-items: center;
     border-bottom: 1px solid rgba(0,0,0,0.1);
     background-color: var(--white);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 `
 
 export const Logo = styled.div`
@@ -31,6 +32,7 @@ export const Menu = styled.div`
             span{
                 font-size: 1.2rem;
                 font-weight: 300;
+                color: var(--secondary);
             }    
             transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
 

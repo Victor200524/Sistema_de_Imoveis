@@ -41,18 +41,18 @@ export const Right = styled.div`
 
 export const Profile = styled.div`
     display: flex;
-    flex-direction: column; /* Permite organizar os itens em coluna */
-    align-items: center; /* Centraliza o conteúdo horizontalmente */
+    flex-direction: column; 
+    align-items: center; 
 `
 
 export const ProfileIMG = styled.div`
     display: flex;
-    justify-content: center; /* Centraliza a imagem horizontalmente */
-    margin-bottom: 10px; /* Espaçamento abaixo da imagem */
+    justify-content: center; 
+    margin-bottom: 10px; 
     img {
         width: 115px;
         height: 115px;
-        border-radius: 50%; /* Torna a imagem circular */
+        border-radius: 50%; 
     }
 `
 
@@ -62,7 +62,7 @@ export const ProfileDescription = styled.div`
         margin-bottom: 15px;
         color: var(--secondary);
     }
-    h3{
+    h3  {
         text-align: center;
     }
 `
@@ -78,42 +78,6 @@ export const ProfileFormContact = styled.div`
     h3{
         margin-bottom: 15px;
         color: var(--secondary);
-    }
-    form{
-        input,textarea{
-            height: 50px;
-            padding: 8px 15px;
-            border-radius: 3px;
-            width: 100%;
-            color: var(--secondary);
-            letter-spacing: 0.1px;
-            font-size: 0.938rem;
-            margin-bottom: 10px;
-            outline: none;
-            border-color: var(--black);
-            border: 1px solid var(--shade);
-            resize: none;
-        }
-        textarea{
-            width: 100%;
-            height: 150px;
-        }
-    }
-    button{
-        width: 100%;
-        height: 50px;
-        background-color: var(--blue);
-        color: var(--white);
-        font-size: 1rem;
-        font-weight: 600;
-        border-radius: 10px;
-        border: 1px solid var(--black);
-        cursor: pointer;
-        transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
-        &:hover {
-            transform: scale(1.1); 
-            box-shadow: 0px 4px 8px rgba(0, 0, 0, 1); 
-        } 
     }
 `
 

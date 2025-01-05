@@ -5,7 +5,7 @@ export const Containter = styled.div`
     grid-template-columns: 2fr 1fr 1fr 1fr;
     column-gap: 50px; /* Adiciona espaço entre as colunas */
     padding: 40px 150px;
-    background-color: var(--gray);
+    background-color: var(--white);
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4); 
 `
 
@@ -51,7 +51,7 @@ export const Item = styled.div`
 `
 
 export const Copy = styled.div`
-    background-color: var(--gray);
+    background-color: var(--white);
     display: flex;
     justify-content: space-between;
     align-items: center;

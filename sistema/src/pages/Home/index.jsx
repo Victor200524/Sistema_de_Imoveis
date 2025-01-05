@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import { Header, Wrapper } from "./styles";
 import Card from "../../componentes/Card";
-
+import Banner from "../../componentes/Banner";
 
 const Home = () => {
     let cards = [];
@@ -10,6 +10,7 @@ const Home = () => {
     }
     return(
         <Fragment>
+            <Banner/>
             <Header>
                 <h2>Encontre o imóvel dos seus sonhos!</h2>
             </Header>
