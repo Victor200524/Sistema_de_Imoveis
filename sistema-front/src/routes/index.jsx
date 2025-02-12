@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, HashRouter, Route, Routes } from "react-router-dom";
 import Home from "../pages/Home";
 import Cadastro from "../pages/Cadastro";
 import Login from "../pages/Login";
@@ -10,7 +10,7 @@ import Imobi from "../pages/Imobi";
 
 const RouterApp = () => {
     return(
-        <BrowserRouter>
+        <HashRouter>
             <Header/>
             <Routes>
                 <Route path="/" element={<Home />} />
@@ -20,7 +20,7 @@ const RouterApp = () => {
                 <Route path="*" element={<Error />} />
             </Routes>
             <Footer/>
-        </BrowserRouter>
+        </HashRouter>
     )
 }
 
